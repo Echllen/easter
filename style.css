@@ -1,0 +1,31 @@
+
+body {
+    text-align: center;
+}
+
+#text {
+    display:none;
+}
+
+.chicken {
+    width: 120px;
+    height: 120px;
+    background: url("pics/egg.png") no-repeat;
+    display: inline-block;
+}
+
+.chicken:hover {
+    background: url("pics/chicken.png") no-repeat;
+}
+
+
+
+a {
+    text-decoration: none;
+    font-style: italic;
+}
+
+a:visited {
+    color: black;
+}
+
